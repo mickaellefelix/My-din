@@ -1,0 +1,29 @@
+<link href="https://fonts.googleapis.com/css2?family=Livvic&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="navbar.component.css">
+
+<nav class="custom-header">
+  <div class="custom-header-content">
+    <div class="logo">
+      <a routerLink="" routerLinkActivate="active-link"><img src="assets/images/navbar/logo_lateral.png" alt="Logo lateral"></a>
+    </div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+    <div class="navigation">
+      <ul>
+        <li><a routerLink="/quem-somos" routerLinkActivate="active-link"><b>Quem somos</b></a></li>
+        <li><a routerLink="/recursos" routerLinkActivate="active-link"><b>Recursos</b></a></li>
+        <li><a routerLink="/feedbacks" routerLinkActivate="active-link"><b>Feedbacks</b></a></li>
+        <li><a routerLink="/contatos" routerLinkActivate="active-link"><b>Contatos</b></a></li>
+      </ul>
+    </div>
+
+    <div class="auth-buttons">
+      <a routerLink="/login" routerLinkActivate="active-link" class="login-btn"><b>Login</b></a>
+      <a routerLink="/signup" routerLinkActivate="active-link" class="signup-btn"><b>SIGNUP</b></a>
+    </div>
+  </div>
+</nav>
+
+

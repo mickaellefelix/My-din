@@ -1,0 +1,102 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 0;
+  font-family: 'Livvic', sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1;
+}
+
+.footer-left p {
+  font-weight: 100;
+  font-size: 20px;
+  margin: 0;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.footer-center p {
+  font-weight: 700;
+  font-size: 12px;
+  margin: 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-right p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.footer-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 220px;
+  margin-top: 17px;
+}
+
+/* Ícones */
+.social-icons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+
+.instagram-icon {
+  background-image: url('/assets/images/footer/img_instagram.png');
+}
+
+.github-icon {
+  background-image: url('/assets/images/footer/img_github.png');
+}
+
+.linkedin-icon {
+  background-image: url('/assets/images/footer/img_linkedin.png');
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-right {
+    text-align: center;
+  }
+
+  .footer-right .social-icons a {
+    margin: 0 5px;
+  }
+}
