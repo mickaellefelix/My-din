@@ -1,0 +1,153 @@
+nav {
+  margin: 0;
+  font-family: 'Livvic', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.custom-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 1rem 0;
+}
+
+.custom-header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 3rem;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.navigation a:hover {
+  color: #8ea563;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.auth-buttons a:hover {
+  color: #8ea563;
+}
+
+.login-btn {
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  transition: color 0.3s ease;
+  font-size: 20px;
+}
+
+.signup-btn {
+  text-decoration: none;
+  background-color: #000 !important;
+  color: #fff !important;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.signup-btn:hover {
+  background-color: #8ea563;
+  color: #fff !important;
+}
+
+/* Ícone de menu (hamburguer) */
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+/* Estilos para telas pequenas (mobile) */
+@media (max-width: 768px) {
+  .navigation,
+  .auth-buttons {
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  #menu-toggle:checked ~ .navigation,
+  #menu-toggle:checked ~ .auth-buttons {
+    display: flex;
+  }
+
+  .custom-header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-icon {
+    display: block;
+    margin-left: auto;
+  }
+
+  .navigation ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .auth-buttons {
+    align-items: flex-start;
+  }
+
+  .auth-buttons a {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Estilos para telas grandes (desktop) */
+@media (min-width: 769px) {
+  .navigation,
+  .auth-buttons {
+    display: flex !important;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+}
