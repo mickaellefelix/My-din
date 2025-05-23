@@ -6,6 +6,7 @@ import { FeedbacksComponent } from './pages/feedbacks/feedbacks.component';
 import { ContatosComponent } from './pages/contatos/contatos.component';
 import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/signup/signup.component';
+import { ConfiguracoesComponent } from './pages/configuracoes/configuracoes.component';
 
 export const routes: Routes = [
     {path:'', redirectTo: '/home', pathMatch: 'full'},
@@ -16,4 +17,5 @@ export const routes: Routes = [
     {path:'contatos', component:ContatosComponent},
     {path:'login', component:LoginComponent},
     {path:'signup', component:SignupComponent},
+    {path:'configuracoes', component:ConfiguracoesComponent}
 ];

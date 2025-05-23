@@ -1,0 +1,18 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+app-navbar {
+  flex-shrink: 0;
+}
+
+app-card-principal {
+  flex: 1;
+  overflow-y: auto;
+}
+
+app-footer {
+  flex-shrink: 0;
+}

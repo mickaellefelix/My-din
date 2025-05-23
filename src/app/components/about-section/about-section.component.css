@@ -1,0 +1,32 @@
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem; /* mesmo padding do header */
+  display: flex;
+  align-items: center;
+  gap: 10rem; /* espaço entre imagem e texto */
+}
+
+.about-image {
+  width: 600px; /* ou outro tamanho que quiser */
+  height: auto;
+  flex-shrink: 0;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-family: 'Livvic', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  margin: 0 0 1rem 0; /* margem inferior opcional */
+}
+
+.about-text p {
+  font-family: 'Livvic', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0 0 1rem 0; /* margem inferior opcional */
+}
