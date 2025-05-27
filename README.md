@@ -37,19 +37,24 @@ Acesse o design visual e layout de telas através do [Figma clicando aqui](https
 
 1. Clone o repositório:
 
-bash
+```bash
 git clone https://github.com/mickaellefelix/My-din.git
 cd My-din
+```
 
 2. Instale as dependências:
 
+```bash
 npm install
+```
 
 3. Inicie o servidor de desenvolvimento:
 
+```bash
 ng serve
+```
 
-3. Acesse em http://localhost:4200/
+4. Acesse em http://localhost:4200/
 
 ## 👨‍💻 Autores
 Lucca Raphael Zille Olimpio
