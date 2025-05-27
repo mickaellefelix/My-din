@@ -6,10 +6,13 @@
   <button class="new-btn">+ NOVO</button>
 
   <nav class="nav-menu">
-    <a href="#">📊 DASHBOARD</a>
-    <a href="#">🧾 HISTÓRICO</a>
-    <a href="#" class="active">⚙️ CONFIGURAÇÕES</a>
+    <a routerLink="/home" routerLinkActive="active"> 
+      <img src="assets/images/navbar-lateral/dashboard.png" alt="Dashboard">  DASHBOARD</a>
+    <a routerLink="/home" routerLinkActive="active">
+      <img src="assets/images/navbar-lateral/historico.png" alt="Histórico"> HISTÓRICO</a>
+    <a routerLink="/home" routerLinkActive="active">
+      <img src="assets/images/navbar-lateral/config.png" alt="Configurações"> CONFIGURAÇÕES</a>
   </nav>
 
-  <button class="logout-btn">SAIR</button>
+  <button routerLink="/home" routerLinkActive="active" class="logout-btn">SAIR</button>
 </aside>

@@ -1,0 +1,57 @@
+.card-cadastro-gasto{
+    background-color: transparent;
+    color: white;
+    padding: 40px;
+    max-width: 400px;
+    font-family: 'Livvic', sans-serif;
+}
+
+.card-cadastro-gasto h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+  
+.card-cadastro-gasto label {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.card-cadastro-gasto input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+  
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+  
+.btn-cadastrar,
+.btn-limpar {
+    width: 189.69px;
+    height: 29px;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+}
+  
+.btn-cadastrar {
+    background-color: white;
+    color: #1b2f2b;
+}
+  
+.btn-limpar {
+    background-color: #a50000;
+    color: white;
+}
+  

@@ -26,8 +26,7 @@
   object-fit: contain;
 }
 
-.new-btn,
-.logout-btn {
+.new-btn{
   width: 189.69px;
   height: 29px;
   border: none;
@@ -39,6 +38,21 @@
   font-size: 12px;
   cursor: pointer;
   margin: 10px 0;
+}
+
+.logout-btn{
+  width: 189.69px;
+  height: 29px;
+  border: none;
+  border-radius: 8px;
+  background-color: #28413F;
+  color: white;
+  font-family: 'Livvic', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 10px 0;
+  margin-top: 450px;
 }
 
 .nav-menu {
@@ -61,7 +75,6 @@
   display: block;
 }
 
-.nav-menu a.active,
 .nav-menu a:hover {
   background-color: #f0f0f0;
 }
