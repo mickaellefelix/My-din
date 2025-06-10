@@ -1,0 +1,12 @@
+<div class="lateral">
+        <app-nav-bar-lateral></app-nav-bar-lateral>
+    </div>
+<app-date></app-date>
+<div class="item-transacao" (click)="navegarParaDetalhes()">
+  <div>{{ transacao.nome }}</div>
+  <div [ngStyle]="{ color: transacao.tipo === 'ganho' ? 'green' : 'red' }">
+    R$ {{ transacao.valor.toFixed(2) }}
+  </div>
+  <div>{{ transacao.data | date: 'dd/MM/yyyy' }}</div>
+</div>
+

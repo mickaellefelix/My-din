@@ -1,0 +1,15 @@
+.header-container {
+  color: white;
+  height: 50px;
+  font-family: 'Livvic', sans-serif;
+  font-size: 1.8rem;
+  display: flex;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.year{
+  margin-left: 980px;
+}
+

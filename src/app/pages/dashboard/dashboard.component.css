@@ -1,0 +1,9 @@
+.dashboard{
+  display: flex;         
+  background-color: black;
+  height: 100vh;       
+}
+
+.conteudo-central{
+  margin-left: 20px;
+}

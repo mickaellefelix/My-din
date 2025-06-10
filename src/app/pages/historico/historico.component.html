@@ -1,0 +1,18 @@
+<div class="historico">
+    <div class="lateral">
+        <app-nav-bar-lateral></app-nav-bar-lateral>
+    </div>
+    <div class="conteudo-central">
+        <app-date></app-date>
+        <div class="filtros">
+            <button (click)="selecionarFiltro('todos')">Todos</button>
+            <button (click)="selecionarFiltro('ganho')">Ganhos</button>
+            <button (click)="selecionarFiltro('gasto')">Gastos</button>
+        </div>
+
+        <div class="lista-transacoes">
+            <app-detalhes-transacao *ngFor="let transacao of transacoesFiltradas" [transacao]="transacao">
+            </app-detalhes-transacao>
+        </div>
+    </div>
+</div>

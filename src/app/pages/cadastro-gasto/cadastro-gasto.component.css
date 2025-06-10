@@ -2,6 +2,18 @@
     display: flex;         
     background-color: black;
     height: 100vh;       
-  }
+}
+
+.lateral {
+    width: 250px;
+}
+
+.conteudo-central {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+}
   
   

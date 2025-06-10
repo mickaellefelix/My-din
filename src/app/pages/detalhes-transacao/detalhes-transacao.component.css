@@ -1,0 +1,12 @@
+.item-transacao {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  background-color: black;
+}
+
+.item-transacao:hover {
+  background-color: #f0f0f0;
+}

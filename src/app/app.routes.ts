@@ -9,6 +9,10 @@ import { SignupComponent } from './pages/signup/signup.component';
 import { ConfiguracoesComponent } from './pages/configuracoes/configuracoes.component';
 import { CadastroGanhoComponent } from './pages/cadastro-ganho/cadastro-ganho.component';
 import { CadastroGastoComponent } from './pages/cadastro-gasto/cadastro-gasto.component';
+import { HistoricoComponent } from './pages/historico/historico.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { TipoTransacaoComponent } from './pages/tipo-transacao/tipo-transacao.component';
+import { DetalhesTransacaoComponent } from './pages/detalhes-transacao/detalhes-transacao.component';
 
 export const routes: Routes = [
     {path:'', redirectTo: '/home', pathMatch: 'full'},
@@ -21,5 +25,9 @@ export const routes: Routes = [
     {path:'signup', component:SignupComponent},
     {path:'configuracoes', component:ConfiguracoesComponent},
     {path:'cadastro-ganho', component:CadastroGanhoComponent},
-    {path:'cadastro-gasto', component:CadastroGastoComponent}
+    {path:'cadastro-gasto', component:CadastroGastoComponent},
+    {path: 'historico', component: HistoricoComponent},
+    {path: 'dashboard', component: DashboardComponent},
+    {path: 'detalhes-transacao/:id', component: DetalhesTransacaoComponent},
+    {path: 'tipo-transacao', component: TipoTransacaoComponent}
 ];

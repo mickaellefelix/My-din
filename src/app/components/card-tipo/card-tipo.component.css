@@ -1,0 +1,21 @@
+.tipo {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px; 
+}
+
+.tipo button {
+  background-color: #29423c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tipo button:hover {
+  background-color: #1f302c;
+}
