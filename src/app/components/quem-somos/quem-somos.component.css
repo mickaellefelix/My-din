@@ -1,0 +1,26 @@
+.about-container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 2rem; 
+  display: flex;
+  align-items: center;
+  gap: 02rem; 
+}
+
+.about-image {
+  width: 700px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text p {
+  font-family: 'Livvic', sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  margin: 0 0 1rem 0;
+  margin-top: 10px;
+}
