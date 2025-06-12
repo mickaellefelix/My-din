@@ -1,7 +1,8 @@
 .carousel-container {
   width: 100%;
-  max-width: 1250px;
+  max-width: 1200px;
   margin: 0 auto 4rem;
+  margin-top: 50px;
 }
 
 .carousel-inner,

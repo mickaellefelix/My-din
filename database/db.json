@@ -1,0 +1,29 @@
+{
+  "usuarios": [
+    {
+      "id": "23f3",
+      "nome": "mc micka",
+      "email": "mcmicka@gamil.com",
+      "senha": "micka123"
+    }
+  ],
+  "ganhos": [
+    {
+      "id": "8be0",
+      "categoria": "Diversão",
+      "data": "2025-06-12",
+      "valor": 100,
+      "descricao": "xeque mate"
+    }
+  ],
+  "gastos": [
+    {
+      "id": "c6a0",
+      "descricao": "aniversário",
+      "categoria": "Diversão",
+      "formaPagamento": "crédito",
+      "data": "2025-06-26",
+      "valor": 120
+    }
+  ]
+}

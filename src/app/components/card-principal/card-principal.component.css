@@ -5,15 +5,21 @@
   padding: 0;
   margin: 0 auto;
   max-width: 1200px;
+  font-family: 'Livvic', sans-serif;
 }
 
 .img-principal h1 {
   margin: 0;
-  max-width: 500px;
+  max-width: 600px;
+  font-size: 3.5rem;
   font-family: 'Livvic', sans-serif;
 }
 
 .img-principal img {
   height: 400px;
   width: auto;
+}
+
+.quem-somos{
+  margin-top: 250px;
 }

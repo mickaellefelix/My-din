@@ -10,9 +10,14 @@ app-navbar {
 
 app-card-principal {
   flex: 1;
+  margin-top: 280px;
   overflow-y: auto;
 }
 
 app-footer {
   flex-shrink: 0;
+}
+
+.principal, .quem-somos, .recursos, .feedbacks{
+  margin-top: 350px;
 }
