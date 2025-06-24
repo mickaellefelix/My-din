@@ -12,4 +12,8 @@ export class GanhoService {
   cadastrarGanho(ganho: IGanho): Observable<IGanho> {
     return this.http.post<IGanho>(this.apiUrl, ganho);
   }
+
+  getGanhos(): Observable<IGanho[]> {
+  return this.http.get<IGanho[]>(this.apiUrl);
+  }
 }

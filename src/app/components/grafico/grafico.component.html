@@ -1,0 +1,31 @@
+<div class="card bg-dark text-white p-3 rounded shadow-sm">
+  <h5 class="mb-4">Resumo Financeiro</h5>
+
+  <!-- Ganhos -->
+  <div class="mb-3">
+    <div class="d-flex justify-content-between">
+      <span>Ganhos</span>
+      <span class="text-success fw-bold">+ R$ {{ totalGanhos }}</span>
+    </div>
+    <div class="progress" style="height: 20px;">
+      <div class="progress-bar bg-success" role="progressbar"
+           [style.width.%]="(totalGanhos / (totalGanhos + totalGastos)) * 100"
+           aria-valuemin="0" aria-valuemax="100">
+      </div>
+    </div>
+  </div>
+
+  <!-- Gastos -->
+  <div>
+    <div class="d-flex justify-content-between">
+      <span>Gastos</span>
+      <span class="text-danger fw-bold">- R$ {{ totalGastos }}</span>
+    </div>
+    <div class="progress" style="height: 20px;">
+      <div class="progress-bar bg-danger" role="progressbar"
+           [style.width.%]="(totalGastos / (totalGanhos + totalGastos)) * 100"
+           aria-valuemin="0" aria-valuemax="100">
+      </div>
+    </div>
+  </div>
+</div>

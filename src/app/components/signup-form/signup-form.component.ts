@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { UsuarioService } from '../../../../database/services/usario.service';
+import { UsuarioService } from '../../../../database/services/usuario.service';
 import { IUsuario } from '../../../../database/models/usuario.model';
 
 @Component({

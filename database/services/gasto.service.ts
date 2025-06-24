@@ -12,4 +12,8 @@ export class GastoService {
   cadastrarGasto(gasto: IGasto): Observable<IGasto> {
     return this.http.post<IGasto>(this.apiUrl, gasto);
   }
+
+  getGastos(): Observable<IGasto[]> {
+    return this.http.get<IGasto[]>(this.apiUrl);
+  }
 }

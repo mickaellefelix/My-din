@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { NavbarComponent } from '../../sharepage/navbar/navbar.component';
-import { FooterComponent } from '../../sharepage/footer/footer.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-recursos',
-  imports: [NavbarComponent, FooterComponent],
+  imports: [RouterModule],
   templateUrl: './recursos.component.html',
   styleUrl: './recursos.component.css'
 })

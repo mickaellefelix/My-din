@@ -1,0 +1,6 @@
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between" *ngFor="let ganho of ganhos">
+    {{ ganho.descricao }}
+    <span class="text-success">+ R$ {{ ganho.valor }}</span>
+  </li>
+</ul>

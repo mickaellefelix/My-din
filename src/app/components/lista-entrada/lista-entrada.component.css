@@ -1,0 +1,8 @@
+.listas-container {
+  display: flex;
+  gap: 20px;
+}
+
+.listas-container > div {
+  flex: 1;
+}

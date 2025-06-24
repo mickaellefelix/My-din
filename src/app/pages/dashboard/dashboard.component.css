@@ -1,9 +1,38 @@
-.dashboard{
-  display: flex;         
-  background-color: black;
-  height: 100vh;       
+.dashboard {
+  display: flex;
+  height: 100vh;
 }
 
-.conteudo-central{
-  margin-left: 20px;
+.lateral {
+  width: 220px;
+  background-color: #f9f9f9;
+}
+
+.conteudo-central {
+  flex: 1;
+  padding: 20px;
+  background-color: #000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.grafico-container {
+  height: 300px;
+  background-color: #d3d3d3; /* Temporário */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.listas-container {
+  display: flex;
+  gap: 20px;
+}
+
+.entrada, .saida {
+  flex: 1;
+  background-color: #d3d3d3; /* Temporário */
+  padding: 10px;
+  border-radius: 10px;
 }

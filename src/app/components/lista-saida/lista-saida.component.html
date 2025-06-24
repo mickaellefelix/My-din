@@ -1,0 +1,6 @@
+<ul class="list-group">
+  <li class="list-group-item d-flex justify-content-between" *ngFor="let gasto of gastos">
+    {{ gasto.descricao }}
+    <span class="text-danger">- R$ {{ gasto.valor }}</span>
+  </li>
+</ul>
