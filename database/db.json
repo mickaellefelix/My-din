@@ -20,6 +20,13 @@
       "data": "2025-06-12",
       "valor": 100,
       "descricao": "xeque mate"
+    },
+    {
+      "id": "23bf",
+      "categoria": "Presente",
+      "data": "2025-06-21",
+      "valor": 5000,
+      "descricao": "Presente para Micka"
     }
   ],
   "gastos": [
@@ -30,6 +37,14 @@
       "formaPagamento": "crédito",
       "data": "2025-06-26",
       "valor": 120
+    },
+    {
+      "id": "e451",
+      "descricao": "Carne",
+      "categoria": "Lazer",
+      "formaPagamento": "Pix",
+      "data": "2025-06-21",
+      "valor": 1000
     }
   ]
 }
